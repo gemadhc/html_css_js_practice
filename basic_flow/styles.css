@@ -1,0 +1,189 @@
+html{
+	box-sizing: border-box;
+}
+*,*: before, *:after{
+	box-sizing:  inherit;
+}
+body{
+	margin:0;
+  color: #FFEDD3;
+}
+.main_layout{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  background-image: url(images/dog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  height: 10vh;
+  min-width: 100vw;
+  background-color: rgba(0,0, 0,0.3);
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  align-items: center;
+}
+.content_display{
+  height: 100vh;
+  max-width: 100vw;
+  background-color: rgba(0,0, 0,0.3);
+  padding-top: 0vh;
+
+}
+
+h1{
+  margin: 0;
+  height:5vh;
+  font-size: 3vh;
+  padding-left: 3vw;
+}
+.nav_bar{
+  margin: 0;
+  height:5vh;
+  padding-right: 5vw;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items:flex-end;
+  justify-content:space-between;
+  width: 50vw;
+  margin:0;
+}
+li{
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+.banner{
+  height: 10vh;
+  width: 96vw;
+  background-color: #FE8F8F;
+  padding-top: 0vh;
+}
+
+.card{
+  display:block;
+  height: 100vh;
+  width: 70vw;
+  background-color: #FE8F8F;
+  margin: 0 auto;
+	/*border-radius: 10% / 50%;*/
+	flex-flow: column nowrap;
+	justify-content:space-around;
+	background-color: rgba(255, 92, 88,0.5);
+}
+
+h2{
+	width: 60vw;
+	margin: 0 auto;
+	text-align:center;
+	font-size: 3vw;
+	flex:0 1 1vh;
+	margin-top: 0vh;
+	margin-bottom: 1vh;
+	display:block;
+}
+.answer_box{
+  display: flex;
+  flex-flow:column nowrap;
+	justify-content: center;
+  width: 50vw;
+  margin: 0 auto;
+	max-height: 40vh;
+	flex-grow: 3;
+}
+.answer_item{
+		flex-grow: 1;
+		min-width: 50vw;
+		text-align: center;
+		padding-top: 4vh;
+		padding-bottom:4vh;
+		border-style: solid;
+	  border-radius: 10% / 50%;*/
+		color:#FFEDD3 ;
+}
+.answer_item:hover{
+	background-color: rgba(73, 47, 16,0.2);
+
+}
+.progress_bar{
+	height:4vh;
+	background: #FFEDD3;
+	flex-grow: 1;
+	display: none;
+}
+.quiz_button{
+	width:30vw;
+	background-color: #FE8F8F;
+	margin: 2vh auto;
+	flex: 0 1 10vh;
+	border-style:solid;
+	border-color: #FFEDD3;
+	color: #FFEDD3;
+	display:block;
+}
+.quiz_button:hover{
+	background-color: rgba(73, 47, 16,0.2);
+}
+
+h3{
+
+	margin-top:10vh;
+	flex:0 1 1vh;
+	text-align: center;
+	padding-top: 0vh;
+	padding-bottom: 0vh;
+	font-size: 3vw;
+	text-align: center;
+}
+
+.show_matches{
+	display:flex;
+	flex-flow: row wrap;
+	flex: 1 1 50vh;
+	align-items: center;
+	justify-content: space-around;
+	margin:0;
+}
+
+.match_image{
+	height: 20vh;
+	width: 15vw;
+}
+
+.profile{
+	flex:0 1 20vh;
+	display: flex;
+	flex-flow: column nowrap;
+	align-content: space-around;
+}
+
+.animal_card{
+	height: 60vh;
+	background-color: ;
+	color: white;
+	display: flex;
+	flex-flow: column nowrap;
+}
+.card_photo{
+	margin: 0 auto;
+	height: 30vh;
+	width: 30vw;
+}
+
+h4{
+	width: 30vw;
+	margin: 0 auto;
+	text-align: center;
+}
+p{
+	width: 30vw;
+	margin: 2vh auto;
+}
